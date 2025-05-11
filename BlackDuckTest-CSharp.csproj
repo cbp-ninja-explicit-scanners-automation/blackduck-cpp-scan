@@ -1,0 +1,70 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net6.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <!-- 1. Newtonsoft.Json v6.0.1 -->
+    <PackageReference Include="Newtonsoft.Json" Version="6.0.1" />
+    
+    <!-- 2. AutoMapper v9.0.0 -->
+    <PackageReference Include="AutoMapper" Version="9.0.0" />
+    
+    <!-- 3. Microsoft.AspNetCore.App v2.1.0 -->
+    <PackageReference Include="Microsoft.AspNetCore.App" Version="2.1.0" />
+    
+    <!-- 4. Microsoft.AspNetCore.Server.Kestrel v2.1.0 -->
+    <PackageReference Include="Microsoft.AspNetCore.Server.Kestrel" Version="2.1.0" />
+    
+    <!-- 5. Microsoft.EntityFrameworkCore v2.1.0 -->
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="2.1.0" />
+    
+    <!-- 6. Microsoft.Extensions.Logging v2.1.0 -->
+    <PackageReference Include="Microsoft.Extensions.Logging" Version="2.1.0" />
+    
+    <!-- 7. Microsoft.Extensions.Configuration v2.1.0 -->
+    <PackageReference Include="Microsoft.Extensions.Configuration" Version="2.1.0" />
+    
+    <!-- 8. Microsoft.Extensions.DependencyInjection v2.1.0 -->
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="2.1.0" />
+    
+    <!-- 9. Microsoft.Extensions.Caching.Memory v2.1.0 -->
+    <PackageReference Include="Microsoft.Extensions.Caching.Memory" Version="2.1.0" />
+    
+    <!-- 10. Microsoft.Extensions.FileProviders.Physical v2.1.0 -->
+    <PackageReference Include="Microsoft.Extensions.FileProviders.Physical" Version="2.1.0" />
+    
+    <!-- 11. Microsoft.Extensions.FileSystemGlobbing v2.1.0 -->
+    <PackageReference Include="Microsoft.Extensions.FileSystemGlobbing" Version="2.1.0" />
+    
+    <!-- 12. Microsoft.Extensions.Hosting v2.1.0 -->
+    <PackageReference Include="Microsoft.Extensions.Hosting" Version="2.1.0" />
+    
+    <!-- 13. Microsoft.Extensions.Options v2.1.0 -->
+    <PackageReference Include="Microsoft.Extensions.Options" Version="2.1.0" />
+    
+    <!-- 14. Microsoft.Extensions.Primitives v2.1.0 -->
+    <PackageReference Include="Microsoft.Extensions.Primitives" Version="2.1.0" />
+    
+    <!-- 15. Microsoft.NetCore.App v2.1.0 -->
+    <PackageReference Include="Microsoft.NetCore.App" Version="2.1.0" />
+    
+    <!-- 16. Microsoft.NETCore.Platforms v2.1.0 -->
+    <PackageReference Include="Microsoft.NETCore.Platforms" Version="2.1.0" />
+    
+    <!-- 17. Microsoft.Win32.Primitives v4.7.0 -->
+    <PackageReference Include="Microsoft.Win32.Primitives" Version="4.7.0" />
+    
+    <!-- 18. Microsoft.Win32.Registry v4.7.0 -->
+    <PackageReference Include="Microsoft.Win32.Registry" Version="4.7.0" />
+    
+    <!-- 19. System.AppContext v4.3.0 -->
+    <PackageReference Include="System.AppContext" Version="4.3.0" />
+    
+    <!-- 20. System.Collections v4.3.0 -->
+    <PackageReference Include="System.Collections" Version="4.3.0" />
+  </ItemGroup>
+
+</Project>
