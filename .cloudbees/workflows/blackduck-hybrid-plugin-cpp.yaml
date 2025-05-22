@@ -4,10 +4,11 @@ apiVersion: automation.cloudbees.io/v1alpha1
 on:
   push:
     branches:
-      - blackduck-hybrid-plugin-test
+      - main
   workflow_dispatch:
   schedule:
-    - cron: 0 9 * * *
+    - cron: 30 3 * * *
+    - cron: 30 10 * * *
 permissions:
   scm-token-own: read
   scm-token-org: read
