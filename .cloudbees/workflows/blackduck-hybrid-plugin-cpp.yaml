@@ -4,7 +4,7 @@ apiVersion: automation.cloudbees.io/v1alpha1
 on:
   push:
     branches:
-      - main
+    - "**"
   workflow_dispatch:
   schedule:
     - cron: 30 3 * * *
@@ -26,4 +26,4 @@ jobs:
           project-name: blackduck-vulnerablities-cpp
           project-version: 0.0.1
           detect-cli-params: --logging.level.detect=DEBUG --blackduck.offline.mode=false
-          ref: main
+          ref: feature-1
